@@ -1,0 +1,142 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky {
+    background: #8EA4D0 ;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.logo {
+    position: relative; left: 30px; top: 20px;
+}
+
+.img-logo {
+    width: 60px;
+}
+
+
+h1 {
+    font-family: 'sail';
+    text-align: center;
+    position: relative; left: 30px; bottom: 30px;
+}
+
+h2 {
+    font-family: 'inter';
+    padding-bottom: 10px; 
+}
+
+h3 {
+    font-family: 'inter';
+    padding-bottom: 10px; 
+}
+
+p {
+    font-family: "inter";
+    font-size: 0.95em;
+}
+
+.rig {
+    padding-top: 8px;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 8px;
+    padding-left: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 8px;
+}
+
+li a {
+    display: block;
+    width: 120px;
+    color: black;
+    background-color: #dce1e4dd;
+    border: black solid 0.5px;
+    text-decoration: none;
+    text-align: center;
+    
+    position: relative; left: 1290px; bottom: 80px;
+}
+
+li a:hover {
+    background-color: #2b677a;
+    color: white;
+}
+article {
+    background: #EFEFEF;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main-page {
+    display: flex;
+    text-align: center;
+}
+
+.steps {
+    flex: 1;
+    margin-top: 50px;
+    
+}
+
+.flex-vert {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    flex: 1;    
+}
+
+.position {
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    
+}
+
+
+.sunset {
+    width: 415px;
+    padding: 5px;
+    
+}
+
+.personal {
+    width: 450px;
+    padding: 5px;
+}
+
+.race {
+    width: 400px;
+    padding: 5px;
+}
+
+footer {
+
+    text-align: center;
+    padding: 3px;
+    background-color: #D9D9D9;
+    color: black;
+    position: absolute;
+    right: 0;bottom:0;left:0;
+}
+
