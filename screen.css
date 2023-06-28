@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +10,7 @@
     top: 0;
     margin: 0;
     width: 100%;
-    height: 80px;
-    
+    height: 80px; 
 }
 
 .logo {
@@ -23,15 +21,15 @@
     width: 60px;
 }
 
-
 h1 {
     font-family: 'sail';
     text-align: center;
-    position: relative; left: 30px; bottom: 30px;
+    position: relative; left: 30px; bottom: 45px;
 }
 
 h2 {
     font-family: 'inter';
+    font-size: 1.4em;
     padding-bottom: 10px; 
 }
 
@@ -43,11 +41,9 @@ h3 {
 p {
     font-family: "inter";
     font-size: 0.95em;
-}
-
-.rig {
-    padding-top: 8px;
-    font-size: 1.1em;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 ul {
@@ -55,7 +51,7 @@ ul {
     margin: 0;
     padding-top: 8px;
     padding-left: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'inter';
     padding-bottom: 8px;
 }
 
@@ -68,28 +64,43 @@ li a {
     text-decoration: none;
     text-align: center;
     
-    position: relative; left: 1290px; bottom: 80px;
+    position: relative; left: 1290px; bottom: 100px;
 }
 
 li a:hover {
     background-color: #2b677a;
     color: white;
 }
+
 article {
     background: #EFEFEF;
     padding: 20px;
     margin: 20px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .main-page {
     display: flex;
     text-align: center;
+    justify-content: center;
+}
+
+.list {
+    line-height: 1.6em;
+    margin: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .steps {
     flex: 1;
-    margin-top: 50px;
-    
+    margin-top: 60px;
+    background: #EFEFEF;
+    max-width: 250px;
+    height: 350px;
+    padding-top: 50px;
 }
 
 .flex-vert {
@@ -99,44 +110,60 @@ article {
     background-color: white;
     text-align: center;
     flex: 1;    
+    max-width: 400px;
 }
 
-.position {
-    width: 500px;
-    padding: 10px;
-    text-align: center;
+button {
+    margin: 30px;
+    padding: 5px;
+    background-color: #D9D9D9;
+    border: none;
+    font-size: 1.1em;
 }
 
+.types {
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+.rig {
+    padding-top: 8px;
+    font-size: 1.1em;
+}
+
+.sail-pos{
+    float: right;
+    padding: 0 20px 20px 20px;
+    width: 230px;
+}
 
 .row {
     display: flex;
-    
 }
 
-
 .sunset {
-    width: 415px;
-    padding: 5px;
-    
+    width: 290px;
+    padding: 5px;  
 }
 
 .personal {
-    width: 450px;
+    width: 315px;
     padding: 5px;
 }
 
 .race {
-    width: 400px;
+    width: 280px;
     padding: 5px;
 }
 
 footer {
-
+    
     text-align: center;
-    padding: 3px;
+    padding: 8px;
     background-color: #D9D9D9;
     color: black;
-    position: absolute;
+    font-size: 0.7em;
+    position: fixed;
     right: 0;bottom:0;left:0;
+    height: 10px;
 }
 
