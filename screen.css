@@ -14,7 +14,7 @@
 }
 
 .logo {
-    position: relative; left: 30px; top: 20px;
+    position: relative; left: 30px; top: 15px;
 }
 
 .img-logo {
@@ -24,7 +24,7 @@
 h1 {
     font-family: 'sail';
     text-align: center;
-    position: relative; left: 30px; bottom: 45px;
+    position: relative; left: 30px; bottom: 55px;
 }
 
 h2 {
@@ -42,7 +42,7 @@ p {
     font-family: "inter";
     font-size: 0.95em;
     line-height: 1.5em;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-right: 10px;
 }
 
@@ -64,7 +64,7 @@ li a {
     text-decoration: none;
     text-align: center;
     
-    position: relative; left: 1290px; bottom: 100px;
+    position: relative; left: 1290px; bottom: 110px;
 }
 
 li a:hover {
